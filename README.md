@@ -1,4 +1,4 @@
-# wolfpack_gym
+# gym-wolfpack
 Implementation of the wolfpack domain as described in [`Leibo et al., AAMAS-17`](https://arxiv.org/pdf/1702.03037.pdf)
 
 ## Dependency
