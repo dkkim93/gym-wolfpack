@@ -25,4 +25,4 @@ The script will start the virtual environment, install remaining Python dependen
 ## Result
 The code should reproduce the following visualization:
 ![alt text][result]
-[result]: https://github.com/dkkim93/gym-wolfpack/blob/master/screenshot.png "Result on 3x9"
+[result]: https://github.com/dkkim93/gym-wolfpack/blob/master/screenshot.png "Screenshot of wolfpack domain"
