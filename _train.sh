@@ -24,8 +24,5 @@ do
     python3.6 main.py \
     --env-name "wolfpack-v0" \
     --seed $seed \
-    --opponent-shaping \
-    --variance-reduction \
-    --meta-test-option "from_phi" \
-    --prefix "ours"
+    --prefix ""
 done

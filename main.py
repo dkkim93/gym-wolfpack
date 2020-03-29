@@ -1,9 +1,8 @@
 import os
 import argparse
-import torch
 import random
 import numpy as np
-from misc.utils import set_log, make_env
+from utils import set_log, make_env
 
 
 def main(args):
@@ -20,7 +19,6 @@ def main(args):
     # Set seeds
     random.seed(args.seed)
     np.random.seed(args.seed)
-    torch.manual_seed(args.seed)
     env.seed(args.seed)
 
     # Visualize environment
