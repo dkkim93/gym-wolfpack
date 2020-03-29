@@ -2,9 +2,6 @@ import gym
 import logging
 
 
-#################################################################################
-# LOGGING
-#################################################################################
 def set_logger(logger_name, log_file, level=logging.INFO):
     log = logging.getLogger(logger_name)
     formatter = logging.Formatter('%(asctime)s : %(message)s')
@@ -31,9 +28,6 @@ def set_log(args):
     return log
 
 
-#################################################################################
-# ENV
-#################################################################################
 def make_env(log, args):
     import gym_env  # noqa
     env = gym.make(args.env_name, log=log, args=args)
