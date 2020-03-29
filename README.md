@@ -23,5 +23,5 @@ The script will start the virtual environment, install remaining Python dependen
 ```
 
 ## Result
-The code should reproduce the following visualization:
+The code should reproduce the following screenshot as the players are acting in the environment:
 ![alt text](https://github.com/dkkim93/gym-wolfpack/blob/master/screenshot.png)
