@@ -74,7 +74,6 @@ class WolfPackEnv(Base):
         rewards = [0. for _ in range(len(self.agents))]
         if hunted_predator is not None:
             if len(nearby_predators) == 0:
-                print(hunted_predator)
                 rewards[hunted_predator.id] = self.REWARD_LONELY
             else:
                 rewards[hunted_predator.id] = self.REWARD_TEAM
