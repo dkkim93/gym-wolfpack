@@ -1,5 +1,5 @@
 # gym-wolfpack
-Implementation of the wolfpack domain as described in [`Leibo et al., AAMAS-17`](https://arxiv.org/pdf/1702.03037.pdf) (Multi-agent Reinforcement Learning in Sequential Social Dilemmas)
+Implementation of the wolfpack domain as described in [`Leibo et al., AAMAS-17`](https://arxiv.org/pdf/1702.03037.pdf) (Multi-agent Reinforcement Learning in Sequential Social Dilemmas) with [`the OpenAI Gym toolkit`](https://gym.openai.com/)
 
 ## Dependency
 Known dependencies are:
